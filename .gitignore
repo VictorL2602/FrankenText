@@ -1,0 +1,29 @@
+# Ignore compiled binary files
+*.exe
+*.out
+*.o
+*.obj
+
+# Ignore build artifacts
+*.log
+*.tmp
+
+# Ignore dependency or cache folders
+.vscode/
+.idea/
+*.DS_Store
+
+# Ignore clangd and language server cache files
+.cache/
+.clangd/
+compile_commands.json
+
+# Ignore generated documentation
+docs/
+html/
+latex/
+
+# Ignore backup or temporary files
+*~
+*.swp
+*.bak
